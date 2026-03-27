@@ -1,0 +1,10 @@
+class Math {
+  class square(n) {
+    return n * n;
+  }
+}
+
+print Math.square(3); // should print 9
+
+Math.pi = 3.141592653;
+print Math.pi; // should print 3.141592653
